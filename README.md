@@ -9,4 +9,6 @@ This repository conatins algorithms of **Data Structure** :
 * Tree
 * Stack
 * Queue
+* many more
 
+I am doing these in C++. But if you know JAVA you can but one drawback is that in Java no pointers it have so, I choose C++ and if you know C language then **Great**. We can do this.
