@@ -1,0 +1,84 @@
+using namespace std;
+#include<iostream>
+
+//Represent a node of singly linked list 
+struct node{
+	int data;
+	node *next;
+};
+
+//Represent the head and tail of the singly linked list  
+struct node *head, *tail = NULL;
+
+//addNode() will add a new node to the list  
+void addNode(int new_data)
+{
+	//Create a new node  
+	struct node *new_node = (struct node *) new node();
+	new_node -> data = new_data;
+	new_node -> next = NULL;
+	
+	//Checks if the list is empty 
+	if (head == NULL)
+	{
+		//If list is empty, both head and tail will point to new node 
+		tail = new_node;
+		head = new_node;
+	}
+	else
+	{
+		//newNode will be added after tail such that tail's next will point to newNode 
+		tail -> next = new_node;
+		//newNode will become new tail of the list 
+		tail = new_node; 
+	}
+}
+
+//Insertion at Beggning
+void insert_at_beg(int data)
+{
+	//create new node
+	struct node *new_node = (struct node *)new node();
+	new_node -> data = data;
+	//link new node to head
+	new_node -> next = head;
+	//making new node head element
+	head = new_node;
+}
+
+//display() will display all the nodes present in the list  
+void display()
+{  
+	if(head == NULL)
+	{
+		cout << "List is empty";
+	}
+	else
+	{
+		//Node current will point to head
+		struct node *ptr = head;
+		//Prints each node by incrementing pointer
+		while(ptr != NULL)
+		{
+			cout << ptr -> data << " ";
+			ptr = ptr -> next;
+		}
+	}
+}
+
+int main()
+{
+	//Add nodes to the list  
+	addNode(1);
+	addNode(2);
+	addNode(3);
+	addNode(4);
+	addNode(5);
+	
+	//Insert any data at beg
+	insert_at_beg(6);
+	
+	//Displays the nodes present in the list  
+	display();
+	return 0;
+}
