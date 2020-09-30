@@ -30,9 +30,10 @@ void addNode(int data) {
         tail = newNode;  
     }  
 }  
-   
+//Deletion At Beginning   
 void del_at_beg()
 {
+	// making second node as head node and linking head to the next.
 	head = head -> next;
 }
    
