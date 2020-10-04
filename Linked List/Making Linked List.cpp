@@ -40,7 +40,7 @@ void display() {
         cout << "List is empty\n";  
         return;  
     }  
-    printf("Nodes of singly linked list: \n");  
+    cout << "Nodes of singly linked list: " << "\n";  
     while(current != NULL) {  
         //Prints each node by incrementing pointer  
         cout << current->data << " ";  
