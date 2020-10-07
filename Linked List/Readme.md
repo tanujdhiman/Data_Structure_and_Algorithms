@@ -17,17 +17,20 @@ Note :-  One more type we have **Doubly Circular Linked List**.
 
 Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at a contiguous location; the elements are linked using pointers.
 
+![](images/Linked_List.jpg)
+
 ## Doubly Linked List :
 
 A Doubly Linked List (DLL) contains an extra pointer, typically called previous pointer, together with next pointer and data which are there in singly linked list.
+
+![](images/DLL1.png)
 
 ## Circular Linked List :
 
 Circular linked list is a linked list where all nodes are connected to form a circle. There is no NULL at the end. A circular linked list can be a singly circular linked list or doubly circular linked list.
 
+![](images/CircularLinkedList.png)
 
 In this repositary I have made programs for **Singly Linked List** only but don't worry. If you guys have understood it very well then you can do by your own. 
-
-![](images/Linked_List.jpg)
 
 Hope you guys will enjoys!!!!!!!!!
