@@ -25,6 +25,9 @@ A Doubly Linked List (DLL) contains an extra pointer, typically called previous 
 
 Circular linked list is a linked list where all nodes are connected to form a circle. There is no NULL at the end. A circular linked list can be a singly circular linked list or doubly circular linked list.
 
+
+In this repositary I have made programs for **Singly Linked List** only but don't worry. If you guys have understood it very well then you can do by your own. 
+
 ![](images/Linked_List.jpg)
 
 Hope you guys will enjoys!!!!!!!!!
