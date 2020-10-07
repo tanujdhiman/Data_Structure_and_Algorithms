@@ -21,6 +21,9 @@ Like arrays, Linked List is a linear data structure. Unlike arrays, linked list 
 
 A Doubly Linked List (DLL) contains an extra pointer, typically called previous pointer, together with next pointer and data which are there in singly linked list.
 
+## Circular Linked List :
+
+
 ![](images/Linked_List.jpg)
 
 Hope you guys will enjoys!!!!!!!!!
