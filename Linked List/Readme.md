@@ -17,7 +17,7 @@ Note :-  One more type we have **Doubly Circular Linked List**.
 
 Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at a contiguous location; the elements are linked using pointers.
 
-![](images/LinkedList.png)
+![](images/Linkedlist.png)
 
 ## Doubly Linked List :
 
