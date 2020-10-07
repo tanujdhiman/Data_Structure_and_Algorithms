@@ -11,7 +11,7 @@ Yeah, you know linked list is of three types :
 * Doubly Linked List
 * Circular Linked List
 
-one more type we have **Doubly Circular Linked List**.
+Note :-  One more type we have **Doubly Circular Linked List**.
 
 
 
