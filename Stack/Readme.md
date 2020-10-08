@@ -20,8 +20,10 @@ In order to make a stack we need a pointer to the top most element along with th
 4. isEmpty() or isFull() - Determine the stack is full or empty. Empty means top = -1.
 
 **Implementation :**
+
 Stack is a collection of elements with certain operations following LIFO order. A stack can be implemented by Array and Linked List.
 
 ## Implementing Stack Using Array :
 
 As, Stack is collection of items but stored elements in LIFO order. Items can be inserted or removed from only one end i.e TOP. 
+
