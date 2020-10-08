@@ -1,4 +1,8 @@
-This folder contains all linked list program. 
+## Linked List :
+
+A linked list is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of nodes which together represent a sequence.
+
+**Operation :**
 * Creation
 * Traversing
 * Insertion
@@ -33,4 +37,3 @@ Circular linked list is a linked list where all nodes are connected to form a ci
 
 In this repositary I have made programs for **Singly Linked List** only but don't worry. If you guys have understood it very well then you can do by your own. 
 
-Hope you guys will enjoys!!!!!!!!!
