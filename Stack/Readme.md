@@ -28,3 +28,5 @@ Stack is a collection of elements with certain operations following LIFO order. 
 As, Stack is collection of items but stored elements in LIFO order. Items can be inserted or removed from only one end i.e TOP. 
 
 ![](images/Stack-as-array.gif)
+
+If Stack is empty then TOP = -1 But in this TOP = 3 that means there are four elements.
