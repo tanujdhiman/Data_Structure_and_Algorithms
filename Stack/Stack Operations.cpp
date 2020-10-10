@@ -70,7 +70,11 @@ int main()
 	
 	cout << "Stack After Pop is : ";
 	display();
+	
+	cout << "Finding the Element ";
+	cout << "\n";
 	peak(1);
+	
 	cout << "Stack is ";
 	display();
 	return 0;
