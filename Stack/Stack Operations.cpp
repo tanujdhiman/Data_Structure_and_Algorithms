@@ -66,7 +66,9 @@ int main()
 	push(3);
 	push(4);
 	push(5);
+	pop();
 	
+	cout << "Stack After Pop is : ";
 	peak(1);
 	cout << "Stack is ";
 	display();
