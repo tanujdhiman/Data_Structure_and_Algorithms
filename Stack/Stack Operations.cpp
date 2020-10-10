@@ -71,6 +71,8 @@ int main()
 	cout << "Stack After Pop is : ";
 	display();
 	
+	int data;
+	cout << "Enter the index number fromn which you want to fing the Element : ";
 	cout << "Finding the Element ";
 	cout << "\n";
 	peak(1);
