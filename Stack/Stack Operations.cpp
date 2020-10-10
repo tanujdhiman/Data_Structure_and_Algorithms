@@ -69,6 +69,7 @@ int main()
 	pop();
 	
 	cout << "Stack After Pop is : ";
+	display();
 	peak(1);
 	cout << "Stack is ";
 	display();
