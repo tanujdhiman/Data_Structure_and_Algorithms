@@ -76,7 +76,7 @@ int main()
 	cin >> data;
 	cout << "Finding the Element ";
 	cout << "\n";
-	peak(1);
+	peak(data);
 	
 	cout << "Stack is ";
 	display();
