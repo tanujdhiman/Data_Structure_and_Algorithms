@@ -73,6 +73,7 @@ int main()
 	
 	int data;
 	cout << "Enter the index number fromn which you want to fing the Element : ";
+	cin >> data;
 	cout << "Finding the Element ";
 	cout << "\n";
 	peak(1);
