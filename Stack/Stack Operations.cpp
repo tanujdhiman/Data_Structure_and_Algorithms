@@ -96,6 +96,9 @@ int main()
 	cout << "Stack After Pop is : ";
 	display();
 	
+	isEmpty();
+	
+	
 	int data;
 	cout << "Enter the index number fromn which you want to fing the Element : ";
 	cin >> data;
