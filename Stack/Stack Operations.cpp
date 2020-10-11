@@ -16,6 +16,31 @@ void push(int val)
 	}
 }
 
+void isEmpty()
+{
+	if(top == -1)
+	{
+		cout << "Stack is Empty. ";
+		return;
+	}
+	else
+	{
+		return ;
+	}
+}
+
+void isEmpty()
+{
+	if(top < 100)
+	{
+		cout << "Stack is Full. ";
+		return;
+	}
+	else
+	{
+		return ;
+	}
+}
 
 void pop()
 {
