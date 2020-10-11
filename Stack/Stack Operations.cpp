@@ -97,7 +97,7 @@ int main()
 	display();
 	
 	isEmpty();
-	
+	isFull();
 	
 	int data;
 	cout << "Enter the index number fromn which you want to fing the Element : ";
