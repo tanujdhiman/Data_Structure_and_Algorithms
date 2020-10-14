@@ -10,7 +10,7 @@ char stack[100];
 void push(int x)
 {
 	// First Check the Stack has space or not if it is full then print an message of Stack Overflow
-	if(top == n-1)
+	if(isFull())
 	{
 		cout <<"Stack Overflow";
 	}
@@ -26,7 +26,7 @@ void push(int x)
 void pop()
 {
 	//First Check if our Stack has element or not it is empty then print an message of Stack underflow
-	if(top == -1)
+	if(isEmpty())
 	{
 		cout <<"Stack underflow";
 	}
