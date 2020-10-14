@@ -6,6 +6,32 @@ int top = -1, n = 100;
 // Create a stack of Characters
 char stack[100];
 
+//This function Check if the Stack is Full or not
+int isFull()
+{
+	if(top == n - 1)
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
+//This function Check if the Stack is Empty or not
+int isEmpty()
+{
+	if(top == -1)
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
 //Push Function 
 void push(int x)
 {
@@ -37,31 +63,6 @@ void pop()
 	}
 }
 
-//This function Check if the Stack is Full or not
-int isFull()
-{
-	if(top == n - 1)
-	{
-		return 1;
-	}
-	else
-	{
-		return 0;
-	}
-}
-
-//This function Check if the Stack is Empty or not
-int isEmpty()
-{
-	if(top == -1)
-	{
-		return 1;
-	}
-	else
-	{
-		return 0;
-	}
-}
 
 //Function of Checking Expression is Balanced or not
 void pmatch(char exp[])
