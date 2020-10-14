@@ -1,14 +1,20 @@
 using namespace std;
 #include<iostream>
 
+// Global Variables 
 int top = -1, n = 100;
+// Create a stack of Characters
 char stack[100];
+
+//Push Function 
 void push(int x)
 {
+	// First Check the Stack has space or not if it is full then print an message of Stack Overflow
 	if(top == n-1)
 	{
 		cout <<"Stack Overflow";
 	}
+	// If not then increment in top then insert element  there.
 	else
 	{
 		top++;
