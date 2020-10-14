@@ -16,6 +16,19 @@ void push(int x)
 	}
 }
 
+void pop()
+{
+	if(top == -1)
+	{
+		cout <<"Stack underflow";
+	}
+	else
+	{
+		top--;
+	}
+}
+
+
 int main()
 {
 	char c[30];
