@@ -53,6 +53,32 @@ int isEmpty()
 	}
 }
 
+void pmatch(char exp[])
+{
+	for(int i = 0; exp[i] != '\0'; i++)
+	{
+		if(exp[i] == '(')
+		{
+			push(exp[i]);
+		}
+		else if (exp[i] == ')')
+		{
+			if(!isEmpty())
+			{
+				pop();
+			}
+		}
+	}
+	if(isEmpty())
+	{
+		cout << "Balanced Expression";
+	}
+	else
+	{
+		cout << "Imbalanced Expression";
+	}
+}
+
 
 int main()
 {
