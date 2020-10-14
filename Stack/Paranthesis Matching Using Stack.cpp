@@ -22,12 +22,15 @@ void push(int x)
 	}
 }
 
+//Pop Operation 
 void pop()
 {
+	//First Check if our Stack has element or not it is empty then print an message of Stack underflow
 	if(top == -1)
 	{
 		cout <<"Stack underflow";
 	}
+	//if not then decrement top 
 	else
 	{
 		top--;
