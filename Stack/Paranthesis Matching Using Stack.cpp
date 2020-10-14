@@ -29,6 +29,19 @@ void pop()
 }
 
 
+int isFull()
+{
+	if(top == n - 1)
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
+
 int main()
 {
 	char c[30];
