@@ -63,26 +63,34 @@ int isEmpty()
 	}
 }
 
+//Function of Checking Expression is Balanced or not
 void pmatch(char exp[])
 {
+	//Traverse through all the expression
 	for(int i = 0; exp[i] != '\0'; i++)
 	{
+		//If we received an open brace then push it into the Stack
 		if(exp[i] == '(')
 		{
 			push(exp[i]);
 		}
+		//If we received an close brace then pop from the Stack that means that the open brace in the Stack has its Close Brace.
 		else if (exp[i] == ')')
 		{
+			//Before Popping Check it is Empty or not
 			if(!isEmpty())
 			{
 				pop();
 			}
 		}
 	}
+	//When all the Stack is Empty it means all have their open-close brace 
+	//So that Expression is Balanced
 	if(isEmpty())
 	{
 		cout << "Balanced Expression";
 	}
+	// Otherwise It is Not Balanced
 	else
 	{
 		cout << "Imbalanced Expression";
