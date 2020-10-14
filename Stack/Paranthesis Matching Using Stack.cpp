@@ -97,12 +97,15 @@ void pmatch(char exp[])
 	}
 }
 
-
+//Main Function
 int main()
 {
+	//create an array
 	char c[30];
+	//input the expression
 	cout << "Enter Expression : ";
 	cin >>	c;
+	//Pass it to Function
 	pmatch(c);
 	return 0;
 }
