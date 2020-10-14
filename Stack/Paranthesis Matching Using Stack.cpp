@@ -37,7 +37,7 @@ void pop()
 	}
 }
 
-
+//This function Check if the Stack is Full or not
 int isFull()
 {
 	if(top == n - 1)
@@ -50,6 +50,7 @@ int isFull()
 	}
 }
 
+//This function Check if the Stack is Empty or not
 int isEmpty()
 {
 	if(top == -1)
