@@ -88,3 +88,13 @@ void PMatch(char exp[])
 		cout << "Imbalanced Expression";
 	}
 }
+
+
+int main()
+{
+	char C[100];
+	cout << "Enter Expression : ";
+	cin >> C;
+	PMatch(C);	
+	return 0;
+}
