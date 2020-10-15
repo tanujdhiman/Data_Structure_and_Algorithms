@@ -43,13 +43,17 @@ void pop()
 	}
 }
 
+//This Function check if the Stack is Full or not
 int isFull()
 {
+	//Make new node 
 	struct node *n = (struct node *) new node();
+	//check memory is allocated or not 
 	if(n == NULL)
 	{
 		return 1;
 	}
+	//if not then return 0
 	else
 	{
 		return 0;
