@@ -75,17 +75,21 @@ int isEmpty()
 	}
 }
 
-
+//This function checks the paranthesis match or not
 void PMatch(char exp[])
 {
+	// Traverse all through the character of arrays
 	for (int i = 0; exp[i] != '\0'; i++)
 	{
+		//if open brace then push
 		if(exp[i] == '(')
 		{
 			push(exp[i]);
 		}
+		//if close brace then pop the open brace
 		else if (exp[i] == ')')
 		{
+			//first check it is empty or not
 			if(isEmpty())
 			{
 				cout << "Stack is empty";
@@ -93,6 +97,7 @@ void PMatch(char exp[])
 			pop();
 		}
 	}
+	//Then lastly we check our Stack it is empty or not
 	if(isEmpty())
 	{
 		cout << "Balanced Expression";
