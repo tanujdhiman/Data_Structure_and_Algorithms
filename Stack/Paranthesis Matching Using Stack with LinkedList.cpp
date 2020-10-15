@@ -28,13 +28,15 @@ void push(int data)
 	}
 }
 
-
+// Pop operation
 void pop()
 {
+	//Check Stack has elements or not
 	if(top == NULL)
 	{
 		cout << "Stack Underflow";
 	}
+	//If not then pop the top most element of stack
 	else
 	{
 		top = top -> next;
