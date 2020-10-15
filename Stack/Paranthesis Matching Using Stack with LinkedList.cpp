@@ -1,20 +1,25 @@
 using namespace std;
 #include<iostream>
-
+// Making Node of Linked List
 struct node{
 	int data;
 	struct node *next;
 };
 
+//Top pointer of the Stack using Linked List
 struct node *top = NULL;
 
+// Push operation
 void push(int data)
 {
+	// Make new node 
 	struct node *newnode = (struct node *) new node();
+	// Check it is allocated or not
 	if(newnode == NULL)
 	{
 		cout << "Stack is Full";
 	}
+	//IF not then push it into Stack
 	else
 	{
 		newnode -> data = data;
