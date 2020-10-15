@@ -60,12 +60,15 @@ int isFull()
 	}
 }
 
+//The Function Checks if the Stack is Empty or not
 int isEmpty()
 {
+	//Check top pointer is NULL or not 
 	if(top == NULL)
 	{
 		return 1;
 	}
+	//if not then return 0
 	else
 	{
 		return 0;
