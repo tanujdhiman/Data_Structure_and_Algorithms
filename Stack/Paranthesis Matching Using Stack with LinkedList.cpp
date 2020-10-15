@@ -108,9 +108,10 @@ void PMatch(char exp[])
 	}
 }
 
-
+//Main Function
 int main()
 {
+	//Input and Pass
 	char C[100];
 	cout << "Enter Expression : ";
 	cin >> C;
