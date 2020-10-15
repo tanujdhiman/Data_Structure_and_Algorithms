@@ -23,3 +23,15 @@ void push(int data)
 	}
 }
 
+
+void pop()
+{
+	if(top == NULL)
+	{
+		cout << "Stack Underflow";
+	}
+	else
+	{
+		top = top -> next;
+	}
+}
