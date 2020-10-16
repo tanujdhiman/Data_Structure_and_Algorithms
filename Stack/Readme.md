@@ -40,4 +40,5 @@ Implement a stack using single linked list concept. all the single linked list o
 
 ## Advantages of Implementing Stack using Linked List over Arrays :
 
-Advantages of Implementing Stacks using Linked List Over arrays is that it is possible to implements a stack that can shrink or grow as much as needed. In using arrays will put a restriction to the maximum capacity of the array 
+Advantages of Implementing Stacks using Linked List Over arrays is that it is possible to implements a stack that can shrink or grow as much as needed. In using arrays will put a restriction to the maximum capacity of the array which can lead to the Stack Overflow.
+And also the disadvatage of this is like we can access elements of an array randomly 
