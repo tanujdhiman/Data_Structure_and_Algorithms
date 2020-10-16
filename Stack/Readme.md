@@ -38,5 +38,6 @@ Implement a stack using single linked list concept. all the single linked list o
 ![](images/stack-LL.png)
 
 
-## Advantages of Implementing Linked List over Arrays :
+## Advantages of Implementing Stack using Linked List over Arrays :
 
+Advantages of I
