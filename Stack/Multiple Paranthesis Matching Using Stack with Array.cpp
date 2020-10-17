@@ -27,3 +27,16 @@ int isEmpty()
 		return 0;
 	}
 }
+
+void push(int x)
+{
+	if(isFull())
+	{
+		cout <<"Stack Overflow";
+	}
+	else
+	{
+		top++;
+		stack[top] = x;
+	}
+}
