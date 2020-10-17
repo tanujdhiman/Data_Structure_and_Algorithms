@@ -40,3 +40,17 @@ void push(int x)
 		stack[top] = x;
 	}
 }
+
+char pop()
+{
+	if(isEmpty())
+	{
+		cout <<"Stack underflow";
+	}
+	else
+	{
+		char val = stack[top];
+		top--;
+		return val;
+	}
+}
