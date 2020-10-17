@@ -111,3 +111,20 @@ int pmatch(char exp[])
 		return 0;
 	}
 }
+
+
+int main()
+{
+	char C[100];
+	cout << "Enter Expression : ";
+	cin >> C;
+	if(pmatch(C))
+	{
+		cout << "Balanced Expression";
+	}
+	else
+	{
+		cout << "Imbalanced Expression";
+	}	
+	return 0;
+}
