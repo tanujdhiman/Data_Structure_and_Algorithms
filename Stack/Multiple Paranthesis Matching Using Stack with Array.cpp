@@ -1,15 +1,18 @@
 using namespace std;
 #include<iostream>
-
+//Global Variables
 int top = -1, n = 100;
 char stack[100];
 
+//Check whether the Stack is full or not
 int isFull()
 {
+	//Compare it with the size of Stack
 	if(top == n - 1)
 	{
 		return 1;
 	}
+	//if not return 0
 	else
 	{
 		return 0;
