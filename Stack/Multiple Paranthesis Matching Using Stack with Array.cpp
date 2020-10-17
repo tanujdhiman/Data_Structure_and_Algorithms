@@ -19,8 +19,10 @@ int isFull()
 	}
 }
 
+//Check whether the Stack is Empty or not
 int isEmpty()
 {
+	//Compare the top element with the -1 which is the initial value of top
 	if(top == -1)
 	{
 		return 1;
