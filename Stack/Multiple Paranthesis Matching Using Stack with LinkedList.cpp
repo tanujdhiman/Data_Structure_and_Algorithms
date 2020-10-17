@@ -79,3 +79,35 @@ int match(char a, char b)
 	}
 	return 0;
 }
+
+int pmatch(char exp[])
+{
+	char popped_ele;
+	for(int i = 0; exp[i] != '\0'; i++)
+	{
+		if(exp[i] == '(' || exp[i] == '{' || exp[i] == '[')
+		{
+			push(exp[i]);
+		}
+		else if (exp[i] == ')' || exp[i] == '}' || exp[i] == ']')
+		{
+			if(isEmpty())
+			{
+				return 0;
+			}
+			popped_ele = pop();
+			if(!match(popped_ele, exp[i]))
+			{
+				return 0;
+			}
+		}
+	}
+	if(isEmpty())
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
