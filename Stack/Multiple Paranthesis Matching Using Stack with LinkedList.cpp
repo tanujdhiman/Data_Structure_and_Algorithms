@@ -22,3 +22,17 @@ void push(int data)
 		top = newnode;
 	}
 }
+
+char pop()
+{
+	if(top == NULL)
+	{
+		cout << "Stack Underflow";
+	}
+	else
+	{
+		char x = top -> data;
+		top = top -> next;
+		return x;
+	}
+}
