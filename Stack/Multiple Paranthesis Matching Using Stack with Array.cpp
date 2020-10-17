@@ -48,7 +48,8 @@ void push(int x)
 }
 
 /* The Difference between Paranthesis Matching and Multiple Paranthesis matching :
-We have to check the top element of the stack because there are three types of paranthesis so that we have to check the pushed element if it is the opening brace of that paranthesis then pop it otherwise return 0.
+We have to check the top element of the stack because there are three types of paranthesis so that we have to check the pushed element 
+if it is the opening brace of that paranthesis then pop it otherwise return 0.
 */
 //This Function will return the top most element of the Stack
 char pop()
