@@ -33,6 +33,7 @@ int isEmpty()
 	}
 }
 
+//Push Operation
 void push(int x)
 {
 	if(isFull())
