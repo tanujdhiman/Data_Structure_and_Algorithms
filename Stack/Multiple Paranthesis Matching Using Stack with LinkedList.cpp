@@ -61,3 +61,21 @@ int isEmpty()
 		return 0;
 	}
 }
+
+
+int match(char a, char b)
+{
+	if(a == '{' && b == '}')
+	{
+		return 1;
+	}
+	if(a == '(' && b == ')')
+	{
+		return 1;
+	}
+	if(a == '[' && b == ']')
+	{
+		return 1;
+	}
+	return 0;
+}
