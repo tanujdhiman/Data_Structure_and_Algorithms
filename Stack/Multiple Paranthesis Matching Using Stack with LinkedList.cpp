@@ -36,3 +36,16 @@ char pop()
 		return x;
 	}
 }
+
+int isFull()
+{
+	struct node *n = (struct node *) new node();
+	if(n == NULL)
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
