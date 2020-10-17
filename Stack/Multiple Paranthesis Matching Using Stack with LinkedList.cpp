@@ -26,6 +26,7 @@ void push(int data)
 	}
 }
 
+//Pop Operation
 char pop()
 {
 	if(top == NULL)
@@ -40,6 +41,7 @@ char pop()
 	}
 }
 
+//Check the Stack is Full or not
 int isFull()
 {
 	struct node *n = (struct node *) new node();
@@ -53,6 +55,7 @@ int isFull()
 	}
 }
 
+//Check the Stack is Empty or not
 int isEmpty()
 {
 	if(top == NULL)
@@ -65,7 +68,7 @@ int isEmpty()
 	}
 }
 
-
+//Match the elements
 int match(char a, char b)
 {
 	if(a == '{' && b == '}')
@@ -83,6 +86,7 @@ int match(char a, char b)
 	return 0;
 }
 
+//Paranthesis Function
 int pmatch(char exp[])
 {
 	char popped_ele;
@@ -115,7 +119,7 @@ int pmatch(char exp[])
 	}
 }
 
-
+//Main function
 int main()
 {
 	char C[100];
