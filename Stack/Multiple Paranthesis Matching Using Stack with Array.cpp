@@ -66,8 +66,10 @@ char pop()
 	}
 }
 
+//Match Function :- It matches the popped element and the current exp element
 int match(char a, char b)
 {
+	//In both the three cases return 1 otherwise return 0
 	if(a == '{' && b == '}')
 	{
 		return 1;
