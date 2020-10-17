@@ -88,26 +88,33 @@ int match(char a, char b)
 //Paranthesis matching Program
 int pmatch(char exp[])
 {
+	//create a char variable which store the popped element
 	char popped_ele;
 	for(int i = 0; exp[i] != '\0'; i++)
 	{
+		//check for opening brace
 		if(exp[i] == '(' || exp[i] == '{' || exp[i] == '[')
 		{
 			push(exp[i]);
 		}
+		//check for closing one
 		else if (exp[i] == ')' || exp[i] == '}' || exp[i] == ']')
 		{
+			//if stack is empty
 			if(isEmpty())
 			{
 				return 0;
 			}
+			//if not pop topmost element
 			popped_ele = pop();
+			//then check it is the matching brace or not 
 			if(!match(popped_ele, exp[i]))
 			{
 				return 0;
 			}
 		}
 	}
+	//If you here then check if the stcak is empty or not 
 	if(isEmpty())
 	{
 		return 1;
