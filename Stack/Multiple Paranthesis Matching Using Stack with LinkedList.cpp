@@ -1,13 +1,16 @@
 using namespace std;
 #include<iostream>
 
+//Node Information
 struct node{
 	int data;
 	struct node *next;
 };
 
+//TOP of the Stack
 struct node *top = NULL;
 
+//Push Operation
 void push(int data)
 {
 	struct node *newnode = (struct node *) new node();
