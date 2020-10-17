@@ -1,5 +1,6 @@
 using namespace std;
 #include<iostream>
+
 //Global Variables
 int top = -1, n = 100;
 char stack[100];
@@ -125,11 +126,13 @@ int pmatch(char exp[])
 	}
 }
 
+//Main Function
 int main()
 {
 	char c[30];
 	cout << "Enter Expression : ";
 	cin >>	c;
+	//This function returns True or False
 	if(pmatch(c))
 	{
 		cout << "Balanced Expression";
