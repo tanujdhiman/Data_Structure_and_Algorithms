@@ -83,3 +83,35 @@ int isoperator(char ope)
 		return 0;
 	}
 }
+
+void intopo(char exp[])
+{
+	int i = 0, j = 0;
+	while(exp[i] != '\0')
+	{
+		if(!isoperator(exp[i]))
+		{
+			stack_post[j] = stack_in[i];
+			i++;
+			j++;
+		}
+		else
+		{
+			if(prec(exp[i]) > prec(top))
+			{
+				push(exp[i]);
+				i++;
+			}
+			else
+			{
+				stack_post[j] = pop();
+				j++;
+			}
+		}
+	}
+	while(!isEmpty())
+	{
+		stack_post[j] = pop();
+		j++;
+	}
+}
