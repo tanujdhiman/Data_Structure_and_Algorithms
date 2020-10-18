@@ -40,3 +40,17 @@ void push(int x)
 		stack_in[top] = x;
 	}
 }
+
+char pop()
+{
+	if(isEmpty())
+	{
+		cout << "Stack is empty or Underflow";
+	}
+	else
+	{
+		char ch = stack_in[top];
+		top--;
+		return ch;
+	}
+}
