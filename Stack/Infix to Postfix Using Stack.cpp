@@ -27,3 +27,16 @@ int isEmpty()
 		return 0;
 	}
 }
+
+void push(int x)
+{
+	if(isFull())
+	{
+		cout << "Stack is full or Overflow";
+	}
+	else
+	{
+		top++;
+		stack_in[top] = x;
+	}
+}
