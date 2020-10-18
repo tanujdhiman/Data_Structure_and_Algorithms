@@ -71,3 +71,15 @@ int prec(char op)
 	}
 	return 0;
 }
+
+int isoperator(char ope)
+{
+	if(ope == '+' || ope == '-' || ope == '*' || ope == '/')
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
