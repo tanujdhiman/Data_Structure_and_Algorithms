@@ -54,3 +54,20 @@ char pop()
 		return ch;
 	}
 }
+
+int prec(char op)
+{
+	if(op == '+' || op == '-')
+	{
+		return 1;
+	}
+	else if(op == '*' || op == '/')
+	{
+		return 2;
+	}
+	else if(op == '(' || op ==')')
+	{
+		return 3;
+	}
+	return 0;
+}
