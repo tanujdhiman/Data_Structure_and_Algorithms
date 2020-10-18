@@ -115,3 +115,18 @@ void intopo(char exp[])
 		j++;
 	}
 }
+
+int main()
+{
+	char C[50];
+	cout << "Enter Your Expression : ";
+	cin >> C;
+	intopo(C);
+	int i = 0;
+	while(stack_post[i] != '\0')
+	{
+		cout << stack_post[i];
+		i++;
+	}
+	return 0;
+}
