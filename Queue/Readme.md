@@ -4,6 +4,8 @@
 
 The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
 
+![](queue-operations.gif)
+
 ## Operations on Queue:
 
 Important operation on Queue is : 
