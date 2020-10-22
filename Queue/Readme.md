@@ -16,3 +16,7 @@ Important operation on Queue is :
 * Peek(pos)
 * isEmpty( )
 * isFull( )
+
+#### EnQueue :
+
+We all know when talking about a Queue is just a Railway Station Ticket counter line where first person came and then he will get first ticket then after other. It is just like a First Come First Server Approach. So other person must be insert in the line from the end only. Exactly in Queue we can only insert element from End of Queue only. When we do inertion operation in Queue at end then it is called EnQueue Operation.
