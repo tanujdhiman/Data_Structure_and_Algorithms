@@ -35,3 +35,8 @@ This operation is not an important operation here but it is an operation and we 
 This is also an basic operation here. Front means front or top of the Queue and Rear means the last or End of the Queue. It is same as Front Opeartion ( return Front element ).
 This return last element of the Queue.
 **Note :** When we implement Enqueue Operation ( Insertion ) then Rear will change (Remember).
+
+#### Peek :
+
+We discussed about Peek Operation in **Stack** implementation as it return any element of the Stack ( given position ). Same here it will return any element of the Queue by giving the position of the Queue.
+**Note :** Position Given 
