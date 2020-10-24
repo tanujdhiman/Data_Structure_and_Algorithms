@@ -25,6 +25,7 @@ We all know when talking about a Queue is just a Railway Station Ticket counter 
 #### DeQueue :
 
 As Enqueue is inserting at the end of the Queue then Dequeue is Deleting from Start of the Queue. Example :- Through the Previous example Railway Station Conter line we all know when first person named Rahul came then obiviously he will get the ticket first so that he will get ticket then he will be removed exactly the same procedure here. First Element will come then it will removed first and this approach here is First Come First Out.
+* **Note :** First check Queue is empty or not means if it have space then deletion will be possible.
 
 #### Front :
 
