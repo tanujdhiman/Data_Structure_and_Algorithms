@@ -28,3 +28,8 @@ As Enqueue is inserting at the end of the Queue then Dequeue is Deleting from St
 #### Front :
 
 This operation is not an important operation here but it is an operation and we are going to implement it too here. **Front** By the name this opeartion will return Front element of the queue. Like in Linked List we implement StackTop operation ( function ) same here this operation will return front or top element of the queue. 
+
+#### Rear :
+
+This is also an basic operation here. Front means front or top of the Queue and Rear means the last or End of the Queue. It is same as Front Opeartion ( return Front element ).
+This return last element of the Queue.
