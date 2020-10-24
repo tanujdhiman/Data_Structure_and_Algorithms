@@ -29,27 +29,27 @@ As Enqueue is inserting at the end of the Queue then Dequeue is Deleting from St
 
 #### Front :
 
-This operation is not an important operation here but it is an operation and we are going to implement it too here. **Front** By the name this opeartion will return Front element of the queue. Like in Linked List we implement StackTop operation ( function ) same here this operation will return front or top element of the queue. 
-**Note :** When we implement Dequeue Operation( Deletion ) then front will change (Rememeber).  
+This operation is not an important operation here but it is an operation and we are going to implement it too here. **Front** By the name this opeartion will return Front element of the queue. Like in Linked List we implement StackTop operation ( function ) same here this operation will return front or top element of the queue.
+* **Note :** When we implement Dequeue Operation( Deletion ) then front will change (Rememeber).  
 
 #### Rear :
 
 This is also an basic operation here. Front means front or top of the Queue and Rear means the last or End of the Queue. It is same as Front Opeartion ( return Front element ).
 This return last element of the Queue.
-**Note :** When we implement Enqueue Operation ( Insertion ) then Rear will change (Remember).
+* **Note :** When we implement Enqueue Operation ( Insertion ) then Rear will change (Remember).
 
 #### Peek :
 
 We discussed about Peek Operation in **Stack** implementation as it return any element of the Stack ( given position ). Same here it will return any element of the Queue by giving the position of the Queue.
-**Note :** Position Given 
+* **Note :** Position Given 
 
 #### isEmpty() :
 
 isEmpty is an operation which tells us that a given data structure is empty or not. In this  case also it will return our Queue is Empty or not.
-**Note :** If empty return 1 if not return 0.
+* **Note :** If empty return 1 if not return 0.
 
 #### isFull() :
 
 isEmpty is an operation which tells us that a given data structure is full or not. In this  case also it will return our Queue is full or not.
-**Note :** If full return 1 if not return 0.
+* **Note :** If full return 1 if not return 0.
 
