@@ -45,3 +45,9 @@ We discussed about Peek Operation in **Stack** implementation as it return any e
 
 isEmpty is an operation which tells us that a given data structure is empty or not. In this  case also it will return our Queue is Empty or not.
 **Note :** If empty return 1 if not return 0.
+
+#### isFull() :
+
+isEmpty is an operation which tells us that a given data structure is full or not. In this  case also it will return our Queue is full or not.
+**Note :** If full return 1 if not return 0.
+
