@@ -40,3 +40,8 @@ This return last element of the Queue.
 
 We discussed about Peek Operation in **Stack** implementation as it return any element of the Stack ( given position ). Same here it will return any element of the Queue by giving the position of the Queue.
 **Note :** Position Given 
+
+#### isEmpty() :
+
+isEmpty is an operation which tells us that a given data structure is empty or not. In this  case also it will return our Queue is Empty or not.
+**Note :** If empty return 1 if not return 0.
