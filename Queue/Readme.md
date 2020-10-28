@@ -53,6 +53,8 @@ isEmpty is an operation which tells us that a given data structure is empty or n
 isEmpty is an operation which tells us that a given data structure is full or not. In this  case also it will return our Queue is full or not.
 * **Note :** If full return 1 if not return 0.
 
+There are lot of differences and similiarities between Queues and other data structure.
+
 ### Difference between Stacks and Queue :
 
 
