@@ -71,3 +71,5 @@ There are lot of differences and similiarities between Queues and other data str
 
 5. * In stacks we maintain only one pointer to access the list, called the top, which always points to the last element present in the list. 
    * In queues we maintain two pointers to access the list. The front pointer always points to the first element inserted in the list and is still present, and the rear pointer      always points to the last inserted element.
+
+6. * Stack is used in solving problems works on recursion
