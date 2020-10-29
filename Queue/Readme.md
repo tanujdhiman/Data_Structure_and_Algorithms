@@ -67,3 +67,4 @@ There are lot of differences and similiarities between Queues and other data str
    * Insert operation is called enqueue operation.
 
 4. * Delete operation is called pop operation.
+   * Delete operation is called dequeue operation.
