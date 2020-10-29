@@ -59,3 +59,5 @@ There are lot of differences and similiarities between Queues and other data str
 
 1. * Stacks are based on the LIFO principle, i.e., the element inserted at the last, is the first element to come out of the list
    * Queues are based on the FIFO principle, i.e., the element inserted at the first, is the first element to come out of the list.
+
+2. * Insertion and deletion in stacks takes place only from one end of the list called the top.
