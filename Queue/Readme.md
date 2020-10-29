@@ -73,3 +73,4 @@ There are lot of differences and similiarities between Queues and other data str
    * In queues we maintain two pointers to access the list. The front pointer always points to the first element inserted in the list and is still present, and the rear pointer      always points to the last inserted element.
 
 6. * Stack is used in solving problems works on recursion
+   * Queue is used in solving problems having sequential processing.
