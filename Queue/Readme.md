@@ -65,3 +65,5 @@ There are lot of differences and similiarities between Queues and other data str
 
 3. * Insert operation is called push operation.
    * Insert operation is called enqueue operation.
+
+4. * Delete operation is called pop operation.
