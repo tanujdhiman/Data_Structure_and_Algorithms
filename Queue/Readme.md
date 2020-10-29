@@ -61,3 +61,4 @@ There are lot of differences and similiarities between Queues and other data str
    * Queues are based on the FIFO principle, i.e., the element inserted at the first, is the first element to come out of the list.
 
 2. * Insertion and deletion in stacks takes place only from one end of the list called the top.
+   * Insertion and deletion in queues takes place from the opposite ends of the list. The insertion takes place at the rear of the list and the deletion takes place from the          front of the list.
