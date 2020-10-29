@@ -68,3 +68,5 @@ There are lot of differences and similiarities between Queues and other data str
 
 4. * Delete operation is called pop operation.
    * Delete operation is called dequeue operation.
+
+5. * In stacks we maintain only one pointer to access the list, called the top, which always points to the last element present in the list. 
