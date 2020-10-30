@@ -83,3 +83,4 @@ There are lot of differences and similiarities between Queues and other data str
 2. Stack and queue is linear data structures they both stores sequentially.
 
 3. Insertion and Deletion operation can be performed on Stack as well as in queue.
+
