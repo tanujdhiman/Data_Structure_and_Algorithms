@@ -80,3 +80,4 @@ There are lot of differences and similiarities between Queues and other data str
 
 1. The Stack and Queue both are the Non-primitive data structures.
 
+2. Stack and queue is linear data structures they both stores sequentially.
