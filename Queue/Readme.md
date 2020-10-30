@@ -74,3 +74,5 @@ There are lot of differences and similiarities between Queues and other data str
 
 6. * Stack is used in solving problems works on recursion
    * Queue is used in solving problems having sequential processing.
+   
+   
