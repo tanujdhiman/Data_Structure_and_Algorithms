@@ -78,3 +78,4 @@ There are lot of differences and similiarities between Queues and other data str
    
 ### Simliarity Between Queue and Stack : 
 
+1. The Stack and Queue both are the Non-primitive data structures.
