@@ -20,3 +20,16 @@ void insert(int data)
 		cout << "Insertion Done ..................." << "\n";
 	}
 }
+
+void del()
+{
+	if(front == -1)
+	{
+		cout << "Queue is Empty";
+	}
+	else
+	{
+		front++;
+		cout << "Deletion Done ..................." << "\n";
+	}
+}
