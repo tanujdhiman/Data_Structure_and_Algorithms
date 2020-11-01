@@ -33,3 +33,12 @@ void del()
 		cout << "Deletion Done ..................." << "\n";
 	}
 }
+
+void display()
+{
+	cout << "Your Queue is : ";
+	for(int i = front; i <= rear; i++)
+	{
+		cout << queue[i] << " ";
+	}
+}
