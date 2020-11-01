@@ -1,8 +1,10 @@
 using namespace std;
 #include<iostream>
 
+//Globally Declare Queue, Front, Rear, Size of Queue
 int queue[100], n = 100, front = -1, rear = -1;
 
+//Insertion Opeartion
 void insert(int data)
 {
 	if(rear == n - 1)
@@ -21,6 +23,7 @@ void insert(int data)
 	}
 }
 
+//Deletion Opaertion
 void del()
 {
 	if(front == -1)
@@ -34,6 +37,7 @@ void del()
 	}
 }
 
+//Display Function
 void display()
 {
 	cout << "Your Queue is : ";
@@ -43,6 +47,7 @@ void display()
 	}
 }
 
+//Main Function
 int main()
 {
 	insert(1);
