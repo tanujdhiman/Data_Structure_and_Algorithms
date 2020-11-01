@@ -4,7 +4,7 @@ using namespace std;
 //Globally Declare Queue, Front, Rear, Size of Queue
 int queue[100], n = 100, front = -1, rear = -1;
 
-//Insertion Opeartion
+//Insertion Opeartion or EnQueue Operation
 void insert(int data)
 {
 	if(rear == n - 1)
@@ -37,7 +37,7 @@ void del()
 	}
 }
 
-//Display Function
+//Display Function or DeQueue Operation
 void display()
 {
 	cout << "Your Queue is : ";
