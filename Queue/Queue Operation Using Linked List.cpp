@@ -30,3 +30,14 @@ void insert(int data)
 			
 	}
 }
+
+int main()
+{
+	insert(1);
+	insert(2);
+	insert(3);
+	insert(4);
+	insert(5);
+	
+	return 0;
+}
