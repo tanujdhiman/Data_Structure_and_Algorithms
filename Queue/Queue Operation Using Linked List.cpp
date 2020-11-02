@@ -7,3 +7,5 @@ struct node{
 	int front = -1;
 	int rear = -1;
 };
+
+struct node *head = NULL;
