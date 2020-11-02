@@ -1,6 +1,7 @@
 using namespace std;
 #include<iostream>
 
+//Node Indformation
 struct node{
 	int data;
 	struct node *next;
@@ -8,8 +9,10 @@ struct node{
 	int rear = -1;
 };
 
+//Global Declaration or making Head node
 struct node *head = NULL;
 
+//Insertion Function
 void insert(int data)
 {
 	struct node *newnode = (struct node *) new node();
@@ -31,6 +34,7 @@ void insert(int data)
 	}
 }
 
+// Main Function
 int main()
 {
 	insert(1);
