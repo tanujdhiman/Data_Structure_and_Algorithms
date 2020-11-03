@@ -5,8 +5,6 @@ using namespace std;
 struct node{
 	int data;
 	struct node *next;
-	int front = -1;
-	int rear = -1;
 };
 
 //Global Declaration or making Head node
