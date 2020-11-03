@@ -8,7 +8,8 @@ struct node{
 };
 
 //Global Declaration or making Head node
-struct node *head = NULL;
+struct node *front = NULL;
+struct node *rear = NULL;
 
 //Insertion Function
 void insert(int data)
