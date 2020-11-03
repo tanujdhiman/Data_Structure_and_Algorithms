@@ -63,11 +63,13 @@ void display()
 // Main Function
 int main()
 {
-	insert(1);
-	insert(2);
-	insert(3);
-	insert(4);
-	insert(5);
+	EnQueue(1);
+	EnQueue(2);
+	EnQueue(3);
+	EnQueue(4);
+	EnQueue(5);
 	
-	return 0;
+	DeQueue();
+	
+	display();
 }
