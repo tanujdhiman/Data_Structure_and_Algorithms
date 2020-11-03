@@ -12,26 +12,24 @@ struct node *front = NULL;
 struct node *rear = NULL;
 
 //Insertion Function
-void insert(int data)
+int EnQueue(int data)
 {
 	struct node *newnode = (struct node *) new node();
-	
-	if(newnode == NULL)
+	newnode -> data = data;
+	newnode -> next = NULL;
+	if(front == NULL && rear == NULL)
 	{
-		cout << "Queue is Empty";
+		cout << "Insertion Done..........." << "\n";
+		front = rear = newnode;
+		return 0;		
 	}
-	else
-	{
-		if(newnode -> fornt == -1)
-		{
-			newnode -> fornt = 0;
-		}
-		cout << "Insertion Done...........";
-		newnode -> rear = newnode -> rear + 1;
-		newnode -> data =  data;
-			
-	}
+	cout << "Insertion Done...........";	
+	cout << "\n";
+	rear -> next = newnode;
+	rear = newnode;
+	return 0;
 }
+
 
 // Main Function
 int main()
