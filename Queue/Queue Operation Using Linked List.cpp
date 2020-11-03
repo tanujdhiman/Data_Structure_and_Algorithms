@@ -49,6 +49,17 @@ int DeQueue()
 	cout << "\n";
 }
 
+void display()
+{
+	struct node *temp = front;
+	cout << "Your Queue Linked List is : ";
+	while(temp != NULL)
+	{
+		cout << temp -> data << " ";
+		temp = temp -> next;
+	}
+}
+
 // Main Function
 int main()
 {
