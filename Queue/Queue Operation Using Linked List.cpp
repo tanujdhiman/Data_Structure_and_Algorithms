@@ -30,6 +30,24 @@ int EnQueue(int data)
 	return 0;
 }
 
+int DeQueue()
+{
+	struct node *temp = front;
+	if(front == NULL)
+	{
+		return 0;
+	}
+	if(front == rear)
+	{
+		front = rear = NULL;
+	}
+	else
+	{
+		front = front -> next;
+	}
+	cout << "Deletion Done";
+	cout << "\n";
+}
 
 // Main Function
 int main()
