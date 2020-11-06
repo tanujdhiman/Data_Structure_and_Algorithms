@@ -17,6 +17,20 @@ void insert(int data)
 	}
 }
 
+void del()
+{
+	if(front == rear)
+	{
+		cout << "Queue is Empty";
+	}
+	else
+	{
+		front = (front + 1) % n;
+		cout << "Deletion Done ..................." << "\n";
+	}
+}
+
+
 
 int main()
 {
