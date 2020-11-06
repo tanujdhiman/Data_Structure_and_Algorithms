@@ -30,6 +30,14 @@ void del()
 	}
 }
 
+void display()
+{
+	cout << "Your Queue is : ";
+	for(int i = front; i <= rear; i++)
+	{
+		cout << queue[i] << " ";
+	}
+}
 
 
 int main()
