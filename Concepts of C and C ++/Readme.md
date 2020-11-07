@@ -4,4 +4,4 @@ This repositary mainly use C++ for implementing data structure and algorithms. B
 * Structures
 * Pointers
 * References in C++
-* Pointers to Structure
+* Functions 
