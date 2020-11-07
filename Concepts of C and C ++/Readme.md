@@ -4,4 +4,7 @@ This repositary mainly use C++ for implementing data structure and algorithms. B
 * Structures
 * Pointers
 * References in C++
+  - Call by Value
+  - Call by Pointer
+  - Call by Reference
 * Functions 
