@@ -12,3 +12,4 @@ This repositary mainly use C++ for implementing data structure and algorithms. B
   - Generic Classes
   - Generic Functions
 * Constructors
+* Template Classes
