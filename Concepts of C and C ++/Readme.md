@@ -8,3 +8,7 @@ This repositary mainly use C++ for implementing data structure and algorithms. B
   - Call by Pointer
   - Call by Reference
 * Functions 
+* Classes
+  - Generic Classes
+  - Generic Functions
+* Constructors
